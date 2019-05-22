@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EDE5585405C23151DE4FC3946EE3327 /* UHNXRealScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A7BDDA0ACCC7253995EFE423983933 /* UHNXRealScale.m */; };
+		1F29C1FD7D6C8A7754DB3567FFFAE4EE /* UHNScrollingTimeSeriesPlotView.h in Headers */ = {isa = PBXBuildFile; fileRef = B7120F9F9C5CBE6D4E685F6CD2874D6A /* UHNScrollingTimeSeriesPlotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B6E296F2A07E13E63D44E374463DA95 /* UHNTimeSeriesPlotView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCA94470AFD357C7074E94CAC86CB31C /* UHNTimeSeriesPlotView.bundle */; };
+		3E40B44A51896581D7F291D87C81E1DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		4C8F3A5EBD65272368E7D356FA1E5B16 /* UHNTimeSeriesPlotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AFB9C9044887FB83598013F8541B17B /* UHNTimeSeriesPlotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		571D6E9DD959DF14EA1BA4D25763496D /* UHNGraphGridLines.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF2E7691AAC8DCF7FD116327E7214E6 /* UHNGraphGridLines.m */; };
+		6EA7D3BA24BBEA46F05EE9FEF4A991C3 /* Pods-HeartRatePlotter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A57FF6C91B0A0AEF835123A058322D6 /* Pods-HeartRatePlotter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71A723BB6C73CE714E55F12BF83C6B5B /* UHNDomainPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D2D14D9BDE1B47F715ECA1CF758361 /* UHNDomainPoint.m */; };
+		863C572AEB1F030DD6614B4A99245830 /* UHNScrollingTimeSeriesPlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B8853FDCA7D88B11F1A290273F26E3 /* UHNScrollingTimeSeriesPlotView.m */; };
+		8AFAD6BA30C911F498328D0C017C0B49 /* Pods-HeartRatePlotter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB938C659BB5B051A1C28749FB38D3 /* Pods-HeartRatePlotter-dummy.m */; };
+		90260FF67071090E3248983079C0C212 /* UHNGraphView.h in Headers */ = {isa = PBXBuildFile; fileRef = EFFCB086B43E21242A22E6274789CB2C /* UHNGraphView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C39DD762D8F1321AC5EAC8DC80324F /* UHNGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03175F7B050A133E58DF549A68DA39FA /* UHNGraphView.m */; };
+		9572DC27691E7513F8743F2540D7C2B2 /* UHNGraphDecoration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD34845A3FB56077E12716DD04658AE /* UHNGraphDecoration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99089BDB3772232C2E82DB4575432951 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		B212DCB069CC0F40CE87A0E3CBAA0F23 /* UHNGraphScaleDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB1E90DBD7829A90F3CE5088E21137D /* UHNGraphScaleDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBC49022533F8E78A2A2A8C79AC819FE /* UHNTimeSeriesPlotView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA45C2745D49A904545A74D29397140B /* UHNTimeSeriesPlotView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF3F21AC57A0E9F948BA062D8BF00953 /* UHNTimeSeriesPlotView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F0AC8DF6529CA6BCE5305ECC92B38 /* UHNTimeSeriesPlotView-dummy.m */; };
+		C06EC63EA7183A645A10361002102BD1 /* UHNYRealScale.m in Sources */ = {isa = PBXBuildFile; fileRef = FF04EF7C0AA8168A506C9EC94CCEB02B /* UHNYRealScale.m */; };
+		C4D4145E4D5D05DEE054348375570A57 /* UHNGraphGridLines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D5E1F872C68874898CC1FB4C61DF9DA /* UHNGraphGridLines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6FDF0B5D70DCAA38263DD68D8F2CF1F /* UHNYRealScale.h in Headers */ = {isa = PBXBuildFile; fileRef = DF73E8B18540FC9BAF9872852E4136D7 /* UHNYRealScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF6CEC03CE875912431A49AC3A7C4ED2 /* UHNGraphDecoration.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF2F0F94A34C6C17B542492023DA64E /* UHNGraphDecoration.m */; };
+		EFA8050B7AF41319FAA04F58092C47F4 /* UHNXRealScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9B1560E77F8216B15C32315C13F6D4 /* UHNXRealScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6C7F0B38FFB38C91A1E8F2D955D0EB8 /* UHNDomainPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1204D13ECE3690949276D24341B632BF /* UHNDomainPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEEB96AFDFD8AEC6C03F9AA727D0F588 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		088693820975CAC456F5F04E0820FDC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F41C4B6E272B23507C37CC429CD03D4;
+			remoteInfo = UHNTimeSeriesPlotView;
+		};
+		1557811109EB98335BB34CAC33423C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FEF113E42F42A98D51D0CDD143BCD2B;
+			remoteInfo = "UHNTimeSeriesPlotView-UHNTimeSeriesPlotView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012828DF639CEC9ABED6C0022B965934 /* Pods-HeartRatePlotter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeartRatePlotter.release.xcconfig"; sourceTree = "<group>"; };
+		03175F7B050A133E58DF549A68DA39FA /* UHNGraphView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UHNGraphView.m; path = Pod/Classes/UHNGraphView.m; sourceTree = "<group>"; };
+		1204D13ECE3690949276D24341B632BF /* UHNDomainPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UHNDomainPoint.h; path = Pod/Classes/UHNDomainPoint.h; sourceTree = "<group>"; };
+		1AFB9C9044887FB83598013F8541B17B /* UHNTimeSeriesPlotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UHNTimeSeriesPlotView.h; path = Pod/Classes/UHNTimeSeriesPlotView.h; sourceTree = "<group>"; };
+		22FB938C659BB5B051A1C28749FB38D3 /* Pods-HeartRatePlotter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeartRatePlotter-dummy.m"; sourceTree = "<group>"; };
+		292378EAFC884A437E5DC5CD8AF27A00 /* ResourceBundle-UHNTimeSeriesPlotView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UHNTimeSeriesPlotView-Info.plist"; sourceTree = "<group>"; };
+		2D501DE87F9075C28E700B72ADF46284 /* Pods_HeartRatePlotter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HeartRatePlotter.framework; path = "Pods-HeartRatePlotter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9B1560E77F8216B15C32315C13F6D4 /* UHNXRealScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UHNXRealScale.h; path = Pod/Classes/UHNXRealScale.h; sourceTree = "<group>"; };
+		30F3ECA08545ED9F8A9DA562BEAF3C96 /* UHNTimeSeriesPlotView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UHNTimeSeriesPlotView.xcconfig; sourceTree = "<group>"; };
+		36A7BDDA0ACCC7253995EFE423983933 /* UHNXRealScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UHNXRealScale.m; path = Pod/Classes/UHNXRealScale.m; sourceTree = "<group>"; };
+		4B2AA6A14836B886FB457F18CFD10305 /* Pods-HeartRatePlotter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeartRatePlotter-acknowledgements.plist"; sourceTree = "<group>"; };
+		53B8853FDCA7D88B11F1A290273F26E3 /* UHNScrollingTimeSeriesPlotView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UHNScrollingTimeSeriesPlotView.m; path = Pod/Classes/UHNScrollingTimeSeriesPlotView.m; sourceTree = "<group>"; };
+		54447B192F0BD15C6DC8D1333339D357 /* UHNTimeSeriesPlotView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UHNTimeSeriesPlotView.modulemap; sourceTree = "<group>"; };
+		5E03E07675155040EE2F655447FF0AA4 /* UHNTimeSeriesPlotView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UHNTimeSeriesPlotView-prefix.pch"; sourceTree = "<group>"; };
+		6BF2E7691AAC8DCF7FD116327E7214E6 /* UHNGraphGridLines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UHNGraphGridLines.m; path = Pod/Classes/UHNGraphGridLines.m; sourceTree = "<group>"; };
+		7A57FF6C91B0A0AEF835123A058322D6 /* Pods-HeartRatePlotter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeartRatePlotter-umbrella.h"; sourceTree = "<group>"; };
+		7CD34845A3FB56077E12716DD04658AE /* UHNGraphDecoration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UHNGraphDecoration.h; path = Pod/Classes/UHNGraphDecoration.h; sourceTree = "<group>"; };
+		7D5E1F872C68874898CC1FB4C61DF9DA /* UHNGraphGridLines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UHNGraphGridLines.h; path = Pod/Classes/UHNGraphGridLines.h; sourceTree = "<group>"; };
+		8B9F0AC8DF6529CA6BCE5305ECC92B38 /* UHNTimeSeriesPlotView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UHNTimeSeriesPlotView-dummy.m"; sourceTree = "<group>"; };
+		8C723D237C0A46AB99F074C13CBC8773 /* Pods-HeartRatePlotter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeartRatePlotter.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F44E407E14DFF889E92982A54498B9F /* Pods-HeartRatePlotter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeartRatePlotter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A426CF903252A1A718A6EDAFC25F2630 /* Pods-HeartRatePlotter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeartRatePlotter-frameworks.sh"; sourceTree = "<group>"; };
+		A51C8060019F777C2C6FAC78B4DA61FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF094021F33409DB1D46F732E91993CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0EB7A1C86BA8FF960C57FDCE376FC1E /* Pods-HeartRatePlotter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeartRatePlotter-resources.sh"; sourceTree = "<group>"; };
+		B1D2D14D9BDE1B47F715ECA1CF758361 /* UHNDomainPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UHNDomainPoint.m; path = Pod/Classes/UHNDomainPoint.m; sourceTree = "<group>"; };
+		B44373C01FE0132736A6245278725479 /* Pods-HeartRatePlotter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeartRatePlotter.debug.xcconfig"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7120F9F9C5CBE6D4E685F6CD2874D6A /* UHNScrollingTimeSeriesPlotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UHNScrollingTimeSeriesPlotView.h; path = Pod/Classes/UHNScrollingTimeSeriesPlotView.h; sourceTree = "<group>"; };
+		BDF2F0F94A34C6C17B542492023DA64E /* UHNGraphDecoration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UHNGraphDecoration.m; path = Pod/Classes/UHNGraphDecoration.m; sourceTree = "<group>"; };
+		CAB1E90DBD7829A90F3CE5088E21137D /* UHNGraphScaleDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UHNGraphScaleDataSource.h; path = Pod/Classes/UHNGraphScaleDataSource.h; sourceTree = "<group>"; };
+		D7080E6BF28C1E429D2057E9166802E9 /* UHNTimeSeriesPlotView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UHNTimeSeriesPlotView.framework; path = UHNTimeSeriesPlotView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DCA94470AFD357C7074E94CAC86CB31C /* UHNTimeSeriesPlotView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = UHNTimeSeriesPlotView.bundle; path = "UHNTimeSeriesPlotView-UHNTimeSeriesPlotView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF73E8B18540FC9BAF9872852E4136D7 /* UHNYRealScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UHNYRealScale.h; path = Pod/Classes/UHNYRealScale.h; sourceTree = "<group>"; };
+		EA45C2745D49A904545A74D29397140B /* UHNTimeSeriesPlotView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UHNTimeSeriesPlotView-umbrella.h"; sourceTree = "<group>"; };
+		EFFCB086B43E21242A22E6274789CB2C /* UHNGraphView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UHNGraphView.h; path = Pod/Classes/UHNGraphView.h; sourceTree = "<group>"; };
+		FF04EF7C0AA8168A506C9EC94CCEB02B /* UHNYRealScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UHNYRealScale.m; path = Pod/Classes/UHNYRealScale.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3515FC68813BCF8730297E50B44707FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEB96AFDFD8AEC6C03F9AA727D0F588 /* Foundation.framework in Frameworks */,
+				99089BDB3772232C2E82DB4575432951 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B5CCE9A820742675D22592661F22CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12818C4A96714D5F506A2763C3F84A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E40B44A51896581D7F291D87C81E1DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		027611298BF8ECCA6A2801DBBAB818A2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D965B43F63EEAE77366644C47A1495B /* Pods-HeartRatePlotter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		10CC1853D5885ECEF5EE8A335A10F12C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A51C8060019F777C2C6FAC78B4DA61FA /* Info.plist */,
+				292378EAFC884A437E5DC5CD8AF27A00 /* ResourceBundle-UHNTimeSeriesPlotView-Info.plist */,
+				54447B192F0BD15C6DC8D1333339D357 /* UHNTimeSeriesPlotView.modulemap */,
+				30F3ECA08545ED9F8A9DA562BEAF3C96 /* UHNTimeSeriesPlotView.xcconfig */,
+				8B9F0AC8DF6529CA6BCE5305ECC92B38 /* UHNTimeSeriesPlotView-dummy.m */,
+				5E03E07675155040EE2F655447FF0AA4 /* UHNTimeSeriesPlotView-prefix.pch */,
+				EA45C2745D49A904545A74D29397140B /* UHNTimeSeriesPlotView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UHNTimeSeriesPlotView";
+			sourceTree = "<group>";
+		};
+		1D965B43F63EEAE77366644C47A1495B /* Pods-HeartRatePlotter */ = {
+			isa = PBXGroup;
+			children = (
+				AF094021F33409DB1D46F732E91993CF /* Info.plist */,
+				8C723D237C0A46AB99F074C13CBC8773 /* Pods-HeartRatePlotter.modulemap */,
+				9F44E407E14DFF889E92982A54498B9F /* Pods-HeartRatePlotter-acknowledgements.markdown */,
+				4B2AA6A14836B886FB457F18CFD10305 /* Pods-HeartRatePlotter-acknowledgements.plist */,
+				22FB938C659BB5B051A1C28749FB38D3 /* Pods-HeartRatePlotter-dummy.m */,
+				A426CF903252A1A718A6EDAFC25F2630 /* Pods-HeartRatePlotter-frameworks.sh */,
+				B0EB7A1C86BA8FF960C57FDCE376FC1E /* Pods-HeartRatePlotter-resources.sh */,
+				7A57FF6C91B0A0AEF835123A058322D6 /* Pods-HeartRatePlotter-umbrella.h */,
+				B44373C01FE0132736A6245278725479 /* Pods-HeartRatePlotter.debug.xcconfig */,
+				012828DF639CEC9ABED6C0022B965934 /* Pods-HeartRatePlotter.release.xcconfig */,
+			);
+			name = "Pods-HeartRatePlotter";
+			path = "Target Support Files/Pods-HeartRatePlotter";
+			sourceTree = "<group>";
+		};
+		39E3FC23C9C82275F40623807820A077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D501DE87F9075C28E700B72ADF46284 /* Pods_HeartRatePlotter.framework */,
+				DCA94470AFD357C7074E94CAC86CB31C /* UHNTimeSeriesPlotView.bundle */,
+				D7080E6BF28C1E429D2057E9166802E9 /* UHNTimeSeriesPlotView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D6BF49093F33006C8A5592B5804799CD /* Pods */,
+				39E3FC23C9C82275F40623807820A077 /* Products */,
+				027611298BF8ECCA6A2801DBBAB818A2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D6BF49093F33006C8A5592B5804799CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCD60D0C5AFDB57A4A11817874CD5C26 /* UHNTimeSeriesPlotView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCD60D0C5AFDB57A4A11817874CD5C26 /* UHNTimeSeriesPlotView */ = {
+			isa = PBXGroup;
+			children = (
+				1204D13ECE3690949276D24341B632BF /* UHNDomainPoint.h */,
+				B1D2D14D9BDE1B47F715ECA1CF758361 /* UHNDomainPoint.m */,
+				7CD34845A3FB56077E12716DD04658AE /* UHNGraphDecoration.h */,
+				BDF2F0F94A34C6C17B542492023DA64E /* UHNGraphDecoration.m */,
+				7D5E1F872C68874898CC1FB4C61DF9DA /* UHNGraphGridLines.h */,
+				6BF2E7691AAC8DCF7FD116327E7214E6 /* UHNGraphGridLines.m */,
+				CAB1E90DBD7829A90F3CE5088E21137D /* UHNGraphScaleDataSource.h */,
+				EFFCB086B43E21242A22E6274789CB2C /* UHNGraphView.h */,
+				03175F7B050A133E58DF549A68DA39FA /* UHNGraphView.m */,
+				B7120F9F9C5CBE6D4E685F6CD2874D6A /* UHNScrollingTimeSeriesPlotView.h */,
+				53B8853FDCA7D88B11F1A290273F26E3 /* UHNScrollingTimeSeriesPlotView.m */,
+				1AFB9C9044887FB83598013F8541B17B /* UHNTimeSeriesPlotView.h */,
+				2F9B1560E77F8216B15C32315C13F6D4 /* UHNXRealScale.h */,
+				36A7BDDA0ACCC7253995EFE423983933 /* UHNXRealScale.m */,
+				DF73E8B18540FC9BAF9872852E4136D7 /* UHNYRealScale.h */,
+				FF04EF7C0AA8168A506C9EC94CCEB02B /* UHNYRealScale.m */,
+				10CC1853D5885ECEF5EE8A335A10F12C /* Support Files */,
+			);
+			name = UHNTimeSeriesPlotView;
+			path = UHNTimeSeriesPlotView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A85C958A74703711D39B0329D5A6E051 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C7F0B38FFB38C91A1E8F2D955D0EB8 /* UHNDomainPoint.h in Headers */,
+				9572DC27691E7513F8743F2540D7C2B2 /* UHNGraphDecoration.h in Headers */,
+				C4D4145E4D5D05DEE054348375570A57 /* UHNGraphGridLines.h in Headers */,
+				B212DCB069CC0F40CE87A0E3CBAA0F23 /* UHNGraphScaleDataSource.h in Headers */,
+				90260FF67071090E3248983079C0C212 /* UHNGraphView.h in Headers */,
+				1F29C1FD7D6C8A7754DB3567FFFAE4EE /* UHNScrollingTimeSeriesPlotView.h in Headers */,
+				BBC49022533F8E78A2A2A8C79AC819FE /* UHNTimeSeriesPlotView-umbrella.h in Headers */,
+				4C8F3A5EBD65272368E7D356FA1E5B16 /* UHNTimeSeriesPlotView.h in Headers */,
+				EFA8050B7AF41319FAA04F58092C47F4 /* UHNXRealScale.h in Headers */,
+				C6FDF0B5D70DCAA38263DD68D8F2CF1F /* UHNYRealScale.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A87C0DCB3CA07B7CF4FC6895768AC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA7D3BA24BBEA46F05EE9FEF4A991C3 /* Pods-HeartRatePlotter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21B1CD5867DDADE3959B3E030C793B68 /* Pods-HeartRatePlotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBFA87BB0C9499229FE9DD12A25FBC3 /* Build configuration list for PBXNativeTarget "Pods-HeartRatePlotter" */;
+			buildPhases = (
+				A5F3B82B67C7283242FFA7D6EB3812A0 /* Sources */,
+				E12818C4A96714D5F506A2763C3F84A2 /* Frameworks */,
+				E0A87C0DCB3CA07B7CF4FC6895768AC1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE856859CA8D8DFC8ADC4ACF3BBAB34B /* PBXTargetDependency */,
+			);
+			name = "Pods-HeartRatePlotter";
+			productName = "Pods-HeartRatePlotter";
+			productReference = 2D501DE87F9075C28E700B72ADF46284 /* Pods_HeartRatePlotter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FEF113E42F42A98D51D0CDD143BCD2B /* UHNTimeSeriesPlotView-UHNTimeSeriesPlotView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6468AB582E5D6023641355D870C9D7E2 /* Build configuration list for PBXNativeTarget "UHNTimeSeriesPlotView-UHNTimeSeriesPlotView" */;
+			buildPhases = (
+				C1BE10134E18BB13F5C664DEC0AA6276 /* Sources */,
+				54B5CCE9A820742675D22592661F22CF /* Frameworks */,
+				1EA4660EE69ACE74EEF86C78A25F4A8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UHNTimeSeriesPlotView-UHNTimeSeriesPlotView";
+			productName = "UHNTimeSeriesPlotView-UHNTimeSeriesPlotView";
+			productReference = DCA94470AFD357C7074E94CAC86CB31C /* UHNTimeSeriesPlotView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9F41C4B6E272B23507C37CC429CD03D4 /* UHNTimeSeriesPlotView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0A68BE3614A48E2E94C9AB42EDCBBF /* Build configuration list for PBXNativeTarget "UHNTimeSeriesPlotView" */;
+			buildPhases = (
+				4F93BD06563F7CDEE85FD6FC5B6FD521 /* Sources */,
+				3515FC68813BCF8730297E50B44707FA /* Frameworks */,
+				DF8EB4A158A4422B8FB25CF445E5403D /* Resources */,
+				A85C958A74703711D39B0329D5A6E051 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				900EBF3DC5E994259ABB7AD7EC9DCBEA /* PBXTargetDependency */,
+			);
+			name = UHNTimeSeriesPlotView;
+			productName = UHNTimeSeriesPlotView;
+			productReference = D7080E6BF28C1E429D2057E9166802E9 /* UHNTimeSeriesPlotView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 39E3FC23C9C82275F40623807820A077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21B1CD5867DDADE3959B3E030C793B68 /* Pods-HeartRatePlotter */,
+				9F41C4B6E272B23507C37CC429CD03D4 /* UHNTimeSeriesPlotView */,
+				6FEF113E42F42A98D51D0CDD143BCD2B /* UHNTimeSeriesPlotView-UHNTimeSeriesPlotView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EA4660EE69ACE74EEF86C78A25F4A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8EB4A158A4422B8FB25CF445E5403D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6E296F2A07E13E63D44E374463DA95 /* UHNTimeSeriesPlotView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F93BD06563F7CDEE85FD6FC5B6FD521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A723BB6C73CE714E55F12BF83C6B5B /* UHNDomainPoint.m in Sources */,
+				CF6CEC03CE875912431A49AC3A7C4ED2 /* UHNGraphDecoration.m in Sources */,
+				571D6E9DD959DF14EA1BA4D25763496D /* UHNGraphGridLines.m in Sources */,
+				90C39DD762D8F1321AC5EAC8DC80324F /* UHNGraphView.m in Sources */,
+				863C572AEB1F030DD6614B4A99245830 /* UHNScrollingTimeSeriesPlotView.m in Sources */,
+				BF3F21AC57A0E9F948BA062D8BF00953 /* UHNTimeSeriesPlotView-dummy.m in Sources */,
+				1EDE5585405C23151DE4FC3946EE3327 /* UHNXRealScale.m in Sources */,
+				C06EC63EA7183A645A10361002102BD1 /* UHNYRealScale.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F3B82B67C7283242FFA7D6EB3812A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFAD6BA30C911F498328D0C017C0B49 /* Pods-HeartRatePlotter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BE10134E18BB13F5C664DEC0AA6276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		900EBF3DC5E994259ABB7AD7EC9DCBEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UHNTimeSeriesPlotView-UHNTimeSeriesPlotView";
+			target = 6FEF113E42F42A98D51D0CDD143BCD2B /* UHNTimeSeriesPlotView-UHNTimeSeriesPlotView */;
+			targetProxy = 1557811109EB98335BB34CAC33423C1A /* PBXContainerItemProxy */;
+		};
+		DE856859CA8D8DFC8ADC4ACF3BBAB34B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UHNTimeSeriesPlotView;
+			target = 9F41C4B6E272B23507C37CC429CD03D4 /* UHNTimeSeriesPlotView */;
+			targetProxy = 088693820975CAC456F5F04E0820FDC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CE7FA1BB46533ADB6FAB1B0488D5873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F3ECA08545ED9F8A9DA562BEAF3C96 /* UHNTimeSeriesPlotView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UHNTimeSeriesPlotView/UHNTimeSeriesPlotView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UHNTimeSeriesPlotView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UHNTimeSeriesPlotView/UHNTimeSeriesPlotView.modulemap";
+				PRODUCT_MODULE_NAME = UHNTimeSeriesPlotView;
+				PRODUCT_NAME = UHNTimeSeriesPlotView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6FC1ACE50E96B1751708EAD5CA19208B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F3ECA08545ED9F8A9DA562BEAF3C96 /* UHNTimeSeriesPlotView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UHNTimeSeriesPlotView";
+				INFOPLIST_FILE = "Target Support Files/UHNTimeSeriesPlotView/ResourceBundle-UHNTimeSeriesPlotView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = UHNTimeSeriesPlotView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7E20EC0A48BBA3544EE54280FB9597A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F3ECA08545ED9F8A9DA562BEAF3C96 /* UHNTimeSeriesPlotView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UHNTimeSeriesPlotView/UHNTimeSeriesPlotView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UHNTimeSeriesPlotView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UHNTimeSeriesPlotView/UHNTimeSeriesPlotView.modulemap";
+				PRODUCT_MODULE_NAME = UHNTimeSeriesPlotView;
+				PRODUCT_NAME = UHNTimeSeriesPlotView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8892DA7777FBFF79E16BB70C54907388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44373C01FE0132736A6245278725479 /* Pods-HeartRatePlotter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HeartRatePlotter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HeartRatePlotter/Pods-HeartRatePlotter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F18220D90867F1ED64952A03A19D4895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 012828DF639CEC9ABED6C0022B965934 /* Pods-HeartRatePlotter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HeartRatePlotter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HeartRatePlotter/Pods-HeartRatePlotter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA39F93BCC98288C75B07575327D1A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FDC87EE1E513E4997A8C19A091DA02FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F3ECA08545ED9F8A9DA562BEAF3C96 /* UHNTimeSeriesPlotView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UHNTimeSeriesPlotView";
+				INFOPLIST_FILE = "Target Support Files/UHNTimeSeriesPlotView/ResourceBundle-UHNTimeSeriesPlotView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = UHNTimeSeriesPlotView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FEB52B20EEB50135A85E1727D4046F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB52B20EEB50135A85E1727D4046F94 /* Debug */,
+				FA39F93BCC98288C75B07575327D1A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6468AB582E5D6023641355D870C9D7E2 /* Build configuration list for PBXNativeTarget "UHNTimeSeriesPlotView-UHNTimeSeriesPlotView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC87EE1E513E4997A8C19A091DA02FA /* Debug */,
+				6FC1ACE50E96B1751708EAD5CA19208B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0A68BE3614A48E2E94C9AB42EDCBBF /* Build configuration list for PBXNativeTarget "UHNTimeSeriesPlotView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE7FA1BB46533ADB6FAB1B0488D5873 /* Debug */,
+				7E20EC0A48BBA3544EE54280FB9597A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBFA87BB0C9499229FE9DD12A25FBC3 /* Build configuration list for PBXNativeTarget "Pods-HeartRatePlotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8892DA7777FBFF79E16BB70C54907388 /* Debug */,
+				F18220D90867F1ED64952A03A19D4895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

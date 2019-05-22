@@ -1,0 +1,16 @@
+PODS:
+  - UHNTimeSeriesPlotView (0.1.0)
+
+DEPENDENCIES:
+  - UHNTimeSeriesPlotView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - UHNTimeSeriesPlotView
+
+SPEC CHECKSUMS:
+  UHNTimeSeriesPlotView: bc38f7093e4086c162190e23dd175b61ae1890dd
+
+PODFILE CHECKSUM: 8f32e2e947daffaaaf9a1f772b4c7240c0b09b37
+
+COCOAPODS: 1.5.0

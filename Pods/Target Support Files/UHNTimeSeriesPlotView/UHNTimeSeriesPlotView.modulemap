@@ -1,0 +1,6 @@
+framework module UHNTimeSeriesPlotView {
+  umbrella header "UHNTimeSeriesPlotView-umbrella.h"
+
+  export *
+  module * { export * }
+}
